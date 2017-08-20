@@ -7,16 +7,10 @@ Use TeX/LaTeX to keep a research diary on your UNIX/Linux system, with useful to
 Note
 ====
 
-The research diary employs the McMaster Logo. There is an eps and a png file. If you plan to compile
-your research entries including eps images, you'll need to compile using latex instead of pdflatex.
+The research diary employs no University Logo but you could easily add one (back) in.
 
-In this case, there is nothing you need to do. The researchdiary.sty file is already prepared to handle
-eps files. Other, you will need to modify the researchdiary.sty file, under the 'univlogo' definition,
-to use mcmaster_logo.png instead of mcmaster_logo.eps. The researchdiary.sty file is located in the scripts/
-directory. 
+If you want eps files then you may have to make some changes (or revert mine back to the start of the history) since I'm using pdflatex.
 
-If you plan to include images that are in pdf, jpg, or png format, and hence will be compiling using
-pdflatex, you must modify researchdiary.sty. If you stick to eps files, then everything may be left as is.
 
 Adding entries
 ==============
